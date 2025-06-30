@@ -1,0 +1,42 @@
+[
+    {
+        "menuItem": "Veg Rice",
+        "companyName":"orderpls",
+        "price": 70
+    },
+    {
+        "menuItem": "Egg Rice",
+        "companyName":"orderpls",
+        "price": 80
+    },
+    {
+        "menuItem": "Chicken Rice",
+        "companyName":"orderpls",
+        "price": 90
+    },
+    {
+        "menuItem": "Veg Noddles",
+        "companyName":"orderpls",
+        "price": 80
+    },
+    {
+        "menuItem": "Egg Noddles",
+        "companyName":"orderpls",
+        "price": 90
+    },
+    {
+        "menuItem": "Chicken Noddles",
+        "companyName":"orderpls",
+        "price": 100
+    },
+    {
+        "menuItem": "Parotta",
+        "companyName":"orderpls",
+        "price": 15
+    },
+    {
+        "menuItem": "Chicken Tandoori",
+        "companyName":"orderpls",
+        "price": 360
+    }
+]

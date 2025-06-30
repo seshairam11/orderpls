@@ -1,0 +1,22 @@
+[
+    {
+        "userName": "sesha",
+        "mailID": "sesha@gmail.com",
+        "phone": 7010631022,
+        "password": 123456,
+        "employeeType": "server",
+        "CompanyName": "orderpls",
+        "room": "orderpls",
+        "createdAt": "12:15am"
+    },
+    {
+        "userName": "raki",
+        "mailID": "raki@gmail.com",
+        "phone": 7010631033,
+        "password": "098765",
+        "employeeType": "server",
+        "CompanyName": "orderpls",
+        "room": "orderpls",
+        "createdAt": "12:15am"
+    }
+]
