@@ -20,7 +20,7 @@ export const OPCasherBilling = () => {
     const menu_List = useRef([]);
     const price_Total = useRef(null);
 
-    const socketUrl = 'http://localhost:8000'
+    const socketUrl = 'https://orderpls.onrender.com'
     const socketRef = useRef(null);
     const validate = OPValidations();
     const getAppStoreData = useSelector((state) => state.appstate.login_info);

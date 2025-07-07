@@ -21,7 +21,7 @@ export const OPServerOrderProcessing = () => {
     const tbl_menu = useRef([])
     const responce_data = useRef([])
 
-    const socketUrl = 'http://localhost:8000'
+    const socketUrl = 'https://orderpls.onrender.com'
     const socketRef = useRef(null);
     const validate = OPValidations();
     const getAppStoreData = useSelector((state) => state.appstate.login_info);
