@@ -24,6 +24,7 @@ exports.test = async (req, res, next) => {
             isAuth: true,
             errormsg: "Test successful",
         });
+        console.log("Test successful");
     } catch (err) {
         res.json({
             isAuth: false,
