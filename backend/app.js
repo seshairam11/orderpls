@@ -19,7 +19,7 @@ connectDatabase();
 // Middleware for JSON body parsing and CORS handling
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000',  // Allow only the specific origin without trailing slash
+    origin: '*',  // Allow only the specific origin without trailing slash
     credentials: true,  // Ensure credentials (cookies, etc.) are allowed
 }));
 
@@ -40,7 +40,7 @@ app.use('/api/v1/', validateAccess);
 // Configure Socket.IO with CORS
 const io = socketIo(server, {
     cors: {
-        origin: 'http://localhost:3000',  // Allow the exact origin without trailing slash
+        origin: '*',  // Allow the exact origin without trailing slash
         methods: ['GET', 'POST'],
         credentials: true,  // Enable credentials (cookies, etc.)
     },
