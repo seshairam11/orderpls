@@ -11,7 +11,7 @@ const { deleteMenu } = require('../controllers/OPDeleteMenuCardControllers');
 const { addMenu } = require('../controllers/OPAddMenuCardControllers');
 const { addBench } = require('../controllers/OPAddBenchControllers');
 const { viewBench } = require('../controllers/OPViewBenchControllers');
-const { deleteBench } = require('../controllers/OPDeleteBenchControllers');
+const { deleteBench, test } = require('../controllers/OPDeleteBenchControllers');
 const router = express.Router()
 
 router.route('/loginemployees').post(validateUserAccess);
@@ -28,5 +28,6 @@ router.route('/addbench').post(addBench);
 router.route('/addbench').post(addBench);
 router.route('/viewbench').post(viewBench);
 router.route('/deletebench').post(deleteBench);
+router.route('/test').post(test);
 
 module.exports = router;

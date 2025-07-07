@@ -18,3 +18,16 @@ exports.deleteBench = async (req, res, next) => {
         });
     }
 }
+exports.test = async (req, res, next) => {
+    try {
+        res.json({
+            isAuth: true,
+            errormsg: "Test successful",
+        });
+    } catch (err) {
+        res.json({
+            isAuth: false,
+            errormsg: err,
+        });
+    }
+}
