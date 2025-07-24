@@ -78,7 +78,7 @@ export const OPEmployeeEntry = () => {
                                     <div className='mx-auto'>
                                         <div className='text-center mb-4'>
                                             <img
-                                                src={require("../assets/img/logo.png")}
+                                                src={require("../assets/img/orderpls.png")}
                                                 alt="Order pls"
                                             ></img>
                                         </div>

@@ -78,7 +78,7 @@ export const OPHotelEntry = () => {
                                     <div className='mx-auto'>
                                         <div className='text-center mb-4'>
                                             <img
-                                                src={require("../assets/img/book-my-table.jpg")}
+                                                src={require("../assets/img/orderpls.png")}
                                                 alt="Order pls"
                                             ></img>
                                         </div>

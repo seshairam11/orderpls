@@ -210,7 +210,7 @@ export const OPMainMenuBar = () => {
                                 {sideBar &&
                                     <>
                                         <Link to={"/user"} className='logo logo-normal'>
-                                            <img src={require("../assets/img/book-my-table.jpg")} />
+                                            <img src={require("../assets/img/orderpls.png")} />
                                         </Link>
                                         <Link to={"/user"} className='white-logo' style={{ marginLeft: "-90px", marginTop: "5px" }}>
                                             <img src={require("../assets/img/book-my-table-dark.jpg")} style={{ width: "130px" }} />
